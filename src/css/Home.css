@@ -1,0 +1,11 @@
+#imgs_credito{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    top: 90%;
+    left: 80%;
+    gap: 20px;
+    
+}

@@ -1,0 +1,17 @@
+#square{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 75%;
+   backdrop-filter: blur(30px);
+   border-radius: 30px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+}
+

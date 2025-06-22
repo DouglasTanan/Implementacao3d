@@ -1,0 +1,26 @@
+#Card_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 230px;
+    width: 190px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.576);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+#Card_main:hover{
+    scale:1.2;
+}
+#Card_main img{
+    height: 157px;
+    width: auto;
+    border-radius: 20px;
+}
+#Card_main h1{
+    font-size: 17px;
+    margin-top: 13%;
+}

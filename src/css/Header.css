@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    flex-direction: row;
+     background-color: #0D0D0D;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  
+   
+}
+header a{
+    margin-left: 5%;
+}
+#searchid{
+display: flex;
+flex-direction: row;
+}
+#searchid img{
+    height: 30px;
+    width: auto;
+    transform: translate(-40px,6px);
+}
+#navs{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 2%;
+}
+header input{
+    height: 40px;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 0px 5px 6px black;
+    padding-left: 3%;
+    background-color: rgba(255, 255, 255, 0.729);
+}
+#input{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+#input img{
+    transform: translateX(-80px);
+    height: 30px;
+    width: auto;
+    cursor: pointer;
+}
+header #imgg{
+    height:70px;
+    width: auto;
+    rotate: 45deg;
+    margin-left: 9%;
+}
+header button{
+    height: 35px;
+    width: 120px;
+     background-color: #D9D9D9;
+   border-radius: 30px;
+   border: none;
+   color: #585656;
+}
+#navs a{
+    display: flex;
+     height: 35px;
+    width: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+   color: #d7cfcf;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+}
+#hLinks_header{
+    display: flex;
+    flex-direction: row;
+    margin-right: 4%;
+    gap: 30px;
+    align-items: center;
+}
